@@ -6,5 +6,49 @@
     align-self: center;
     margin: auto;
     width: 100%;
-    height: 600px;
+    height: 800px;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+    position: static;
+    width: 321px;
+    height: 228px;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.card-header {
+    width: 321px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.card-header img {
+    width: 10%;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+

@@ -22,7 +22,7 @@ export default function TopBar() {
                 <img src={Adjusts} alt="Adjusts"/>
                 <img src={Cards} alt="Cards"/>
                 <button onClick={() => setIsModalVisible(true)}>+</button>
-                {isModalVisible ? <Modal/> : null}
+                {isModalVisible ? <Modal onClose={() => setIsModalVisible(false)} /> : null}
             </div>
         </div>
         
