@@ -60,15 +60,17 @@ class Modal extends Component {
                 data.license = require.data.license;
                 data.language = require.data.language;
                 
-                this._data.push(this.state.data);
+                // this._data.push(this.state.data);
 
+                
                 console.log(data);
-                console.log(this._data);
+                // console.log(this._data);
             }catch (err) {
                 alert(console.log(err));
             }
         }
 
+        
         return (
             <div className="modal-container">
                 <form onSubmit={handleSubmit}>
@@ -76,9 +78,10 @@ class Modal extends Component {
                         <h3>New Repository</h3>
                         <h4>Repository</h4>
                         <input type="text" value={owner} onChange={this.handleChange}></input>
+                        {/* {this.props.render(this.state.data)} */}
                         <hr/>
                         <div className="footer">
-                            {/* <button className="cancel"  onClick={onClose}>Cancel</button> */}
+                            <button className="cancel"  onClick={() => {}}>Cancel</button>
                             <button id="add" type="submit">Add</button>
                         </div>
                     </div>

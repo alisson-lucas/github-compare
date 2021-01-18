@@ -17,6 +17,8 @@ class TopBar extends Component {
         this.state = {
             isModalVisible : false
         }
+
+        this.handleModalVisible = this.handleModalVisible.bind(this);
     }
 
     

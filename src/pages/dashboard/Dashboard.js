@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { FaRegStar } from 'react-icons/fa';
-import { HiOutlineTrash } from "react-icons/hi";
-import api from '../../services/api';
+// import { FaRegStar } from 'react-icons/fa';
+// import { HiOutlineTrash } from "react-icons/hi";
+// import api from '../../services/api';
 
 import './styles.css';
 
-import Logo from '../../assets/liferay-icon.png';
+// import Logo from '../../assets/liferay-icon.png';
 
 import TopBar from '../../components/topBar/TobBar';
 import Card from '../../components/card/Card';
-import Empty from '../../components/empty/Empty';
+// import Empty from '../../components/empty/Empty';
 
 export default function Dashborad() {
 

@@ -66,7 +66,19 @@
 
 @media (max-width: 1024px) {
     .container {
+        width: 100%;
+    }
+
+    .items input {
         width: 60%;
+    }
+
+    .items img {
+        display: none;
+    }
+
+    .items span {
+        display: none;
     }
 }
 
@@ -76,8 +88,19 @@
     }
 
     .container {
-        width: 90%;
+        width: 100%;
     }
 
+    .items input {
+        width: 50%;
+    }
+
+    .items img {
+        display: none;
+    }
+
+    .items span {
+        display: none;
+    }
     
 }

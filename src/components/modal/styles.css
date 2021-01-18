@@ -35,6 +35,10 @@
     margin-top: -10px;
     color: #000;
 }
+.content hr {
+    border-top: 3px solid #bbb;
+}
+
 
 .content input {
     position: static;
