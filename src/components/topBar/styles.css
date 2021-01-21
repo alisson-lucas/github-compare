@@ -71,10 +71,13 @@
 
     .items input {
         width: 60%;
+        margin-left: 20px;
     }
 
     .items img {
         display: none;
+        /* margin-left: 10px;
+        margin-right: 2px; */
     }
 
     .items span {

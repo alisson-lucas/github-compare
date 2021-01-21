@@ -1,4 +1,5 @@
 import React, {useState, Component} from 'react';
+import { AiFillGithub } from "react-icons/ai";
 
 import './styles.css';
 
@@ -37,7 +38,8 @@ class TopBar extends Component {
         return(
             <div className="container">
                 <div className="items">
-                    <img src={Icon} alt="Github Compare"/>
+                    <AiFillGithub size="27px" />
+                    {/* <img src={Icon} alt="Github Compare"/> */}
                     <span>Github Compare</span>
                     <span>Filter and Other</span>
                     <input className="search" placeholder="Search"></input>

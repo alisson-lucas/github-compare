@@ -77,7 +77,7 @@ class Modal extends Component {
                     <div className="content"> 
                         <h3>New Repository</h3>
                         <h4>Repository</h4>
-                        <input type="text" value={owner} onChange={this.handleChange}></input>
+                        <input type="text" value={owner} onChange={this.handleChange} placeholder="username/repository"></input>
                         {/* {this.props.render(this.state.data)} */}
                         <hr/>
                         <div className="footer">
