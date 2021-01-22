@@ -5,6 +5,7 @@ import api from '../../services/api';
 
 import './styles.css';
 
+import Card from '../card/Card';
 class Modal extends Component {
 // const Modal = ({onClose = () => {}, Children}) => {
 
@@ -79,7 +80,7 @@ class Modal extends Component {
                         <h4>Repository</h4>
                         <input type="text" value={owner} onChange={this.handleChange} placeholder="username/repository"></input>
                         {/* {this.props.render(this.state.data)} */}
-                        <hr/>
+                        {/* <hr/> */}
                         <div className="footer">
                             <button className="cancel"  onClick={() => {}}>Cancel</button>
                             <button id="add" type="submit">Add</button>
