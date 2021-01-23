@@ -93,7 +93,9 @@
 
 @media (max-width: 1024px) {
     .dashboard-container {
+        background-color: #E5E5E5;
         width: 60%;
+        height: 100vh;
     }
 }
 
@@ -103,7 +105,9 @@
     }
 
     .dashboard-container {
+        background-color: #E5E5E5;
         width: 90%;
+        height: 100vh;
     }
 
     

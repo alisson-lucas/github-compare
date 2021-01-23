@@ -12,17 +12,17 @@ const RepoProvider = ({ children }) => {
         // language: 'javascript' }
     ])
 
-    // const saveRepo = repo => {
-    //     const newRepo = {
-    //         id: repo.id, full_name: repo.full_name, stars: repo.stars, forks: repo.forks, open_issues: repo.open_issues,
-    //         license: repo.license, language: repo.language
-    //     }
-    //     setRepos([...repos, newRepo]);
-    //     console.log('save repo');
-    // }
+    const saveRepo = repo => {
+        const newRepo = {
+            id: repo.id, full_name: repo.full_name, stars: repo.stars, forks: repo.forks, open_issues: repo.open_issues,
+            license: repo.license, language: repo.language
+        }
+        setRepos([...repos, newRepo]);
+        console.log('save repo');
+    }
 
     return(
-        <RepoContext.Provider value={{ repos, setRepos}}>
+        <RepoContext.Provider value={{ repos, setRepos, saveRepo}}>
             {children}
         </RepoContext.Provider>
     )
@@ -30,8 +30,8 @@ const RepoProvider = ({ children }) => {
 
 export function useRepo() {
     const context = useContext(RepoContext);
-    const { repos, setRepos, } = context;
-    return { repos, setRepos };
+    const { repos, setRepos, saveRepo } = context;
+    return { repos, setRepos, saveRepo };
 }
 
 export default RepoProvider;

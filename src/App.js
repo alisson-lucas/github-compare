@@ -1,14 +1,16 @@
-import './App.css';
 import Routes from './routes'
 import RepoProvider from './contexts/RepoContext';
+import PageProvider from './contexts/pageContext';
 
 
 
 function App() {
   return (
-    <RepoProvider>
-      <Routes />
-    </RepoProvider>
+    <PageProvider>
+      <RepoProvider>
+        <Routes />
+      </RepoProvider>
+    </PageProvider>
   );
 }
 
