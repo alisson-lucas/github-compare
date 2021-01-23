@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Routes from './routes'
+import RepoProvider from './contexts/RepoContext';
+
+
 
 function App() {
   return (
-    <Routes />
+    <RepoProvider>
+      <Routes />
+    </RepoProvider>
   );
 }
 

@@ -1,5 +1,4 @@
-import React, { Component} from 'react';
-import { AiFillGithub } from "react-icons/ai";
+import React from 'react';
 
 import './styles.css';
 

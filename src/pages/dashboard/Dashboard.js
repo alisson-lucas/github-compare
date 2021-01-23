@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component} from 'react';
 // import { FaRegStar } from 'react-icons/fa';
 // import { HiOutlineTrash } from "react-icons/hi";
 // import api from '../../services/api';
@@ -11,7 +11,7 @@ import TopBar from '../../components/topBar/TobBar';
 import Card from '../../components/card/Card';
 // import Empty from '../../components/empty/Empty';
 
-class Dashborad extends Component {
+class Dashboard extends Component {
 // export default function Dashborad() {
 
     // const [informações, setInformações] = useState({
@@ -67,4 +67,4 @@ class Dashborad extends Component {
     }
 }
 
-export default Dashborad;
+export default Dashboard;
