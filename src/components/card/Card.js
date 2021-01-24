@@ -9,7 +9,6 @@ import DeleteModal from '../deleteModal/DeleteModal';
 
 import './styles.css';
 
-
 const Card = () => {
     const {repos, setRepos} = useRepo();
     const [isModalVisible, setIsModalVisible] = useState(false);

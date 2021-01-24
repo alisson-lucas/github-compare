@@ -3,14 +3,7 @@ import React, { useState, createContext, useContext } from 'react';
 export const RepoContext = createContext();
 
 const RepoProvider = ({ children }) => {
-    const [repos, setRepos] = useState([
-        // { id: 1, full_name: 'liferay/liferay-portal', stars: 1618, forks: 2256, open_issues: 10,
-        // license: 'N/A',
-        // language: 'javascript' },
-        // { id: 2, full_name: 'liferay/liferay', stars: 16, forks: 56, open_issues: 8,
-        // license: 'N/A',
-        // language: 'javascript' }
-    ])
+    const [repos, setRepos] = useState([])
 
     const saveRepo = repo => {
         const newRepo = {

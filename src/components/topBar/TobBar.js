@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { AiFillGithub } from "react-icons/ai";
-import { IoMdArrowDropdown, IoIosSearch } from "react-icons/io"
+import { IoMdArrowDropdown } from "react-icons/io"
 
 import './styles.css';
 

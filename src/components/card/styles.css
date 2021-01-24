@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
-    margin-top: 10px;
+    margin-top: 90px;
 }
 
 .dashboard-container ul li {
@@ -32,8 +32,6 @@
     background-color: #fff;
     border-radius: 4px;
 }
-
-
 
 .card-header {
     width: 321px;
@@ -121,7 +119,6 @@
         height: 100vh;
     }
     
-
     .dashboard-container ul {
         list-style: none;
         display: grid;
@@ -129,6 +126,4 @@
         grid-gap: 30px;
         margin-top: 500px;
     }
-
-    
 }

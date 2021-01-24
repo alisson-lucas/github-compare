@@ -10,6 +10,5 @@ export default function Empty() {
             <h2>There is still nothing here</h2>
             <h3>Add some repositories by clicking add new repository</h3>
         </div>
-        
     );
 }

@@ -40,7 +40,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .body span {
@@ -49,9 +48,11 @@
     font-size: 14px;
 }
 
-.footer {
+.delete-footer {
     height: 72px;
     padding: 12px 16px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
 #btn-cancel {
